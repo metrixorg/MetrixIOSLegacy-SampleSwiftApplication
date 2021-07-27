@@ -17,12 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MetrixDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let yourAppId: String = "gvttfcnpeimctyf"
+        let yourAppId: String = "lcqmfsnvhzznvhe"
         let environment: String = MXEnvironmentSandbox
         
         let metrixConfig = MXConfig(appId: yourAppId, environment: environment)
         
-        metrixConfig?.trackerToken = "wyrxsz"
+        metrixConfig?.trackerToken = "uevt4h"
         metrixConfig?.delegate = self
 
         Metrix.appDidLaunch(metrixConfig)

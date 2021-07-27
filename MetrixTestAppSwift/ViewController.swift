@@ -28,12 +28,12 @@ class ViewController: UIViewController {
             "type": "sport",
             "size": "large"]
         let myMetrics : [String: NSNumber] = [:]
-        let event = MXCustomEvent(slug: "msdok", attributes:myAttributes, metrics:myMetrics)
+        let event = MXCustomEvent(slug: "jqgjh", attributes:myAttributes, metrics:myMetrics)
         Metrix.trackCustomEvent(event)
     }
     
     @IBAction func sendRevenueClick(_ sender: UIButton) {
-        Metrix.trackRevenue("giaoj", withValue: 12000, currency: MXCurrency.IRR, orderId: "myOrderId")
+        Metrix.trackRevenue("prfrn", withValue: 12000, currency: MXCurrency.IRR, orderId: "myOrderId")
     }
     
     @IBAction func getAttributionClick(_ sender: UIButton) {
